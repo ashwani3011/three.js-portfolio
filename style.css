@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* background: linear-gradient(to left, #219c84 0%, #b37fcf 50%, #ac68d1 100%); */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  font-family: "Arial";
+  background: linear-gradient(to left, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+
+.webgl {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+
+  /* mix-blend-mode:lighten; */
+  /* mix-blend-mode: luminosity; */
+  /* mix-blend-mode: hard-light; */
+}
+
+.container {
+  height: 100vh;
+  /* width: 100vw; */
+}
+
+.intro-container,
+.about-container,
+.projects-container,
+.skills-container,
+.contact-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro,
+.about,
+.projects,
+.skills,
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+
+  backdrop-filter: blur(1em);
+  width: 50%;
+  height: fit-content;
+  padding: 2em;
+  border-radius: 3em;
+}
+
+.intro,
+.skills {
+  margin-right: 50%;
+  margin-bottom: 10%;
+  width: 35%;
+}
+
+.contact,
+.about {
+  margin-left: 50%;
+  width: 35%;
+}
+
+.intro h2 {
+  margin-top: 1em;
+  font-weight: lighter;
+}
+
+span {
+  font-weight: 750;
+}
+
+.intro h3 {
+  margin-top: 0.5em;
+  font-weight: lighter;
+}
+
+.about h4 {
+  margin-top: 2em;
+  font-weight: lighter;
+}
+
+.projects li,
+.skills li,
+.contact li {
+  margin-top: 1.7em;
+}
+
+.projects h4,
+.skills h4,
+.contact li {
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#prev-view,
+#next-view {
+  display: none;
+}

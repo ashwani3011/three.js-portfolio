@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashwani</title>
+    <link
+      rel="icon"
+      href="https://aws1.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style></style>
+
+  <body>
+    <main>
+        <button id="prev-view">prev view</button>
+        <button id="next-view">next view</button>
+
+        <div class="intro-container">
+            <div class="intro">
+                <h1>
+                    Hello!
+                    <img src="https://bchiang7.github.io/img/emojis/wave.png" height="35" width="35" alt="">
+                </h1>
+                <h2>
+                    I'm <span>Pepcoder</span>,
+                </h2>
+                <h3>
+                    A design-minded front-end software engineer focused on building beautiful
+                    interfaces & experiences 💻
+                </h3>
+            </div>
+        </div>
+
+        <div class="about-container container">
+            <div class="about">
+                <h2>
+                    Background 🌐
+                </h2>
+                <h4>
+                    I'm currently a Product Engineer and Mentor at <span>Pepcoding 🚀</span> building things for the web
+                    with some awesome people. I am also an undergrad pursuing CSE from <span>XYZ University</span>.
+                </h4>
+                <h4>
+                    As a software engineer, I enjoy bridging the gap between engineering and design — combining my
+                    technical knowledge with my keen eye for design to create a beautiful product. My goal is to always
+                    build applications that are scalable and efficient under the hood while providing engaging,
+                    pixel-perfect user experiences.
+                </h4>
+            </div>
+        </div>
+
+        <div class="projects-container container">
+            <div class="projects">
+                <h2>
+                    Projects 🏆
+                </h2>
+                <h4>
+                    <ul>
+                        <li> <span> Seeker's Deck: </span>
+                            A job application tracker which manages it all at one place.
+                        </li>
+                        <li> <span> Google Fit UI Clone: </span>
+                            Cloned one of the most popular Fitness application in world using D3.js.</li>
+                        <li> <span> Football Game: </span>
+                            Flappy bird inspired game but with football and squares.
+                            Play @ pantchayan.github.io/football-game</li>
+                        <li> <span> Investment Portfolio Tracker: </span>
+                            Manages all your riches, so you never go broke.</li>
+                        <li> <span> Microsoft Whiteboard: </span>
+                            Cloned the whiteboard, made it usable, check it out @ pantchayan.github.io/whiteboard-clone
+                        </li>
+                        <li> <span> Google Sheet's Clone: </span>
+                            Again a clone. nvm.</li>
+                    </ul>
+                </h4>
+            </div>
+        </div>
+
+        <div class="skills-container container">
+            <div class="skills">
+                <h2>
+                    Skills 🧠
+                </h2>
+                <h4>
+                    <ul>
+                        <li> <span> Languages and Databases </span>
+                            <br>
+                            Javascript, Java, MySQL, Mongo DB
+                        </li>
+                        <li> <span> Scripting and Styling </span>
+                            <br>
+                            HTML5, CSS, Bootstrap, MaterialUI, TailwindCSS, FlexBox
+                        </li>
+                        <li> <span> Frameworks and Libraries </span>
+                            <br>
+                            React, Node.js, Three.js, D3.js
+                        </li>
+                        </li>
+                        <li> <span> Other </span>
+                            <br>
+                            Git, Firebase
+                        </li>
+                    </ul>
+                </h4>
+            </div>
+        </div>
+        <div class="contact-container container">
+            <div class="contact">
+                <h2>
+                    Contact ☎️
+                </h2>
+                <h4>
+                    <ul>
+                        <li> <span> Phone/ WhatsApp </span>
+                            <br>
+                            +9195xxxx8433
+                        </li>
+                        <li> <span> Email </span>
+                            <br>
+                            pepcoder@gmail.com
+                        </li>
+                        <li> <span> Github </span>
+                            <br>
+                            @pepcoder
+                        </li>
+                        </li>
+                        <li> <span> LinkedIn </span>
+                            <br>
+                            @pepcoder
+                        </li>
+                    </ul>
+                </h4>
+            </div>
+        </div>
+    </main>
+
+    <button id="prev-view">prev view</button>
+    <button id="next-view">next view</button>
+    <canvas class="webgl"></canvas>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"
+      integrity="sha512-LF8ZB1iTwi4Qvkm4pekHG4a437Y9Af5ZuwbnW4GTbAWQeR2E4KW8WF+xH8b9psevV7wIlDMx1MH9YfPqgKhA/Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="main.js" type="module" defer></script>
+    <script src="content.js" defer></script>
+  </body>
+</html>
